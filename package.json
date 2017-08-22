@@ -8,5 +8,13 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/evocateur/lerna-rollup-example.git"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "prewatch": "npm run bootstrap",
+    "watch": "lerna run watch --parallel"
+  },
+  "devDependencies": {
+    "lerna": "^2.0.0"
   }
 }
