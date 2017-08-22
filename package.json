@@ -1,0 +1,12 @@
+{
+  "name": "lerna-rollup-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demonstrating rollup --watch logging issues.",
+  "author": "Daniel Stockman <daniel.stockman@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evocateur/lerna-rollup-example.git"
+  }
+}
