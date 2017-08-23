@@ -15,6 +15,7 @@
     "watch": "lerna run watch --parallel"
   },
   "devDependencies": {
-    "lerna": "^2.0.0"
+    "lerna": "^2.0.0",
+    "rollup": "^0.48.2"
   }
 }
