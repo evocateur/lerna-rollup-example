@@ -12,7 +12,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "prewatch": "npm run bootstrap",
-    "watch": "lerna run watch --parallel"
+    "watch": "lerna exec --parallel -- rollup -f cjs -i src/index.js -o dist/index.js -w"
   },
   "devDependencies": {
     "lerna": "^2.0.0",
